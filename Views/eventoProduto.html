@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NeoTicket Cadastro</title>
+</head>
+
+<body>
+    <form name="form2" method="post" />
+    <main>
+
+        <section id="eventoProduto">
+
+            <form>
+
+                <font face="arial" size="5" color="black">
+
+
+
+                    <label for="inputEmail4"> NOME DO EVENTO::</label>
+                    <select id="Bebidas" name="cmb_nome">
+                        <option value="whisky">Whisky</option>
+                        <option value="cerveja">Cerveja</option>
+                        <option value="Vinho">Vinho</option>
+                        <option value="Vodka">Vodka</option>
+                        <option value="Nao Alcoolicos">Não Alcoolicos</option>
+                    </select>
+                    <div class="col">
+                        <label for="inputEmail4"> Produto:</label>
+                        <select id="Bebidas" name="cmb_produto">
+                            <option value="whisky">Whisky</option>
+                            <option value="cerveja">Cerveja</option>
+                            <option value="Vinho">Vinho</option>
+                            <option value="Vodka">Vodka</option>
+                            <option value="Nao Alcoolicos">Não Alcoolicos</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputEmail4">Preço:</label>
+                        <input type="text" name="txt_preco" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4">Quantidade:</label>
+                        <input type="text" name="txt_quant" class="form-control" id="inputEmail4">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" onclick="document.form2.action='eventoProduto.php'">Sign in</button>
+                </font>
+
+            </form>
+
+        </section>
+
+    </main>
+</body>
+</html>

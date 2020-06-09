@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>NeoTicket Cadastro</title>
+</head>
+
+<body>
+    <form name="form2" method="post" />
+    <main>
+
+        <section id="cadastroCliente">
+
+            <form>
+
+                <font face="arial" size="5" color="black">
+
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="inputEmail4">Cnpj</label>
+                            <input type="text" class="form-control" name="txt_cnpj" placeholder="Cnpj">
+                        </div>
+                        <div class="col">
+                            <label for="inputEmail4">Nome da empresa</label>
+                            <input type="text" class="form-control" name="txt_nome" placeholder="nome empresa">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="inputEmail4">endereco</label>
+                            <input type="email" name="txt_endereco" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4">Representante</label>
+                            <input type="email" name="txt_representante" class="form-control" id="inputEmail4">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="inputPassword4">cpfRepresentante</label>
+                            <input type="text" name="txt_cpf" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4">Email pra contato</label>
+                            <input type="text" name="txt_mail" class="form-control" id="inputEmail4">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" onclick="document.form2.action='cadastrarCliente.php'">Sign in</button>
+                </font>
+
+            </form>
+
+        </section>
+        
+    </main>
+</body>
+</html>
